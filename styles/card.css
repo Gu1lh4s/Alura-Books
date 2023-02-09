@@ -1,0 +1,176 @@
+
+
+.card {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 1em 1em 1em 3em;
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    position: relative;
+    padding: 1em;
+    margin: 20px;
+    height: 250px;   
+
+
+}
+
+.titulo_card  {
+    color: var(--laranja);
+    font-size: 16px; 
+    font-weight: 700;
+    width: 180px;
+    height: 45px;
+    line-height: 24px;
+
+}
+
+.titulo2_card {
+    color: var(--azul-degrade);
+    font-size: 18px; 
+    font-weight: 700;
+    width: 180px;
+    height: 50px;
+    line-height: 27px;
+    margin: 25px 0 15px 0;
+}
+
+.descricao_card {
+    color: var(--azul-degrade);
+    font-size: 14px; 
+    font-weight: 400;
+    width: 150px;
+    height: 85px;
+    grid-column-start: 1;
+    line-height: 21px;
+    margin: 55px 0 25px 0;
+}
+
+.imagem_card {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 140px;
+    height: 140px;
+    padding-top: 6px;
+    border-radius: 15px;
+}
+
+.coracao_card {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    margin: 50px 0;
+}
+
+.carrinho_card {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    margin: 50px 0 0 55px; 
+}
+
+.botao_card {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+
+    grid-row-start: 5;
+    grid-column-start: 2;
+    background-color: var(--laranja);
+
+    width: 140px;
+    height: 48px;
+    margin: 50px 0;
+}
+
+.descricao1_card {
+    color: var(--azul-degrade);
+    font-size: 14px; 
+    font-weight: 400;
+    width: 150px;
+    height: 85px;
+    grid-column-start: 1;
+    line-height: 21px;
+}
+
+.tituloA_card {
+    color: var(--azul-degrade);
+    font-size: 18px; 
+    font-weight: 700;
+    width: 180px;
+    height: 50px;
+    grid-column-start: 1;
+}
+
+.titulo1_card {
+    color: var(--laranja);
+    font-size: 16px; 
+    font-weight: 700;
+    width: 180px;
+    height: 45px;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+    
+}
+
+@media screen and (min-width:1728px) {
+    .card {
+        width: 600px;
+        margin: 2em auto;
+    }
+
+    .descricao_card {
+        font-size: 16px;
+        width: 100%;
+
+    }
+
+    .titulo2_card {
+        font-size: 18px;
+        width: 100%;
+        margin-top: 3em;
+
+    }
+
+    .titulo_card {
+        font-size: 32px;
+        width: 120%;
+        line-height: 38px;
+    }
+
+    .imagem_card {
+        margin: 0 0 0 100px;
+    }
+
+    .botao_card {
+        margin: 45px 0 0 100px;
+    }
+
+    .titulo1_card {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .tituloA_card {
+        font-size: 24px;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .descricao1_card {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+
