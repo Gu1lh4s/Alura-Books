@@ -1,3 +1,3 @@
 <h1 align="center"> Alura Books </h1>
-Projeto feito durante o curso de responsividade da Alura.
-![Alura books](https://user-images.githubusercontent.com/120686437/217844864-6dbc40c7-e18a-4c05-aa97-907441b15d9e.png)
+
+<img src="https://user-images.githubusercontent.com/120686437/217847164-40430a0e-a3f3-4a64-af4f-f0c8f17c97f6.png" alt="Alura books readme">
