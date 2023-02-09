@@ -1,5 +1,5 @@
 
-<h1 align="center">Alura-Books</h1>
+# Alura-Books
 
 <img src="https://user-images.githubusercontent.com/120686437/217847164-40430a0e-a3f3-4a64-af4f-f0c8f17c97f6.png" alt="Alura books readme">
 
@@ -15,7 +15,7 @@
   
 # Índice 
 
-* [Título e Imagem de capa](h1)
+* [Título e Imagem de capa](Alura-Books)
 * [Badges](#badges)
 * [Índice](#índice)
   
