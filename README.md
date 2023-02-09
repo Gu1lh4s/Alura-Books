@@ -13,7 +13,7 @@
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |
+| [<img src="https://avatars.githubusercontent.com/u/120686437?s=400&v=4" width=115><br><sub>Guilherme Freitas</sub>](https://github.com/camilafernanda) |
 | :---: |
   
 
